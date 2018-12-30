@@ -1,12 +1,7 @@
 /* This is my first css file */
 
 body {
-  /* background-color: #181819; */
-  background-image: url('images/background.jpg');
-  background-repeat: space;
-
-  background-position: center;
-  background-size: cover;
+  background-color: #181819;
 }
 
 /* from this line to down belong top navigation */
@@ -35,7 +30,6 @@ body {
 .navigation a:hover {
   background-color: #a8caa9;
 }
-
 
 
 .links {
