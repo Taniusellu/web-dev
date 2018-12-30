@@ -1,0 +1,48 @@
+/* This is my first css file */
+
+body {
+  background-color: #4caf50;
+  font-family: monospace;
+}
+
+.navigation {
+  padding: 10px;
+}
+
+.navigation .active {
+  padding: 10px;
+  background-color: #1f69dc;
+  color: white;
+}
+.navigation a {
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+.navigation a:hover {
+  background-color: #a8caa9;
+}
+
+.links {
+  padding: 10px;
+}
+
+h1 {
+  font-family: Arial "Time New Roman";
+  font-size: 10px;
+  color: #bdd03b;
+  text-transform: uppercase;
+  background-color: #247fdc;
+  border-radius: 10px;
+  padding: 10px
+}
+
+.userinfo {
+  background-color: #247fdc;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.userinfo input {
+  border-radius: 10px;
+}
