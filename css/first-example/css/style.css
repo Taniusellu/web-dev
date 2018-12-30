@@ -1,23 +1,27 @@
 /* This is my first css file */
 
 body {
-  background-color: #181819;
-  font-family: monospace;
+  /* background-color: #181819; */
+  background-image: url('images/background.jpg');
+  background-repeat: space;
+
+  background-position: center;
+  background-size: cover;
 }
 
+
+/* from this line to down belong top navigation */
 .navigation {
   font-size: 20px;
   padding: 15px;
   background-color: #28a796;
 }
-
 .navigation .active {
   padding: 10px;
   background-color: #1f69dc;
   color: white;
   display: inline-block;
 }
-
 .navigation .login {
   float: right;
   padding: 10px;
@@ -32,6 +36,8 @@ body {
 .navigation a:hover {
   background-color: #a8caa9;
 }
+
+
 
 .links {
   padding: 10px;
