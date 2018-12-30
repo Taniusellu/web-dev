@@ -1,17 +1,27 @@
 /* This is my first css file */
 
 body {
-  background-color: #4caf50;
+  background-color: #181819;
   font-family: monospace;
 }
 
 .navigation {
-  padding: 10px;
+  font-size: 20px;
+  padding: 15px;
+  background-color: #28a796;
 }
 
 .navigation .active {
   padding: 10px;
   background-color: #1f69dc;
+  color: white;
+  display: inline-block;
+}
+
+.navigation .login {
+  float: right;
+  padding: 10px;
+  background-color: #4a74dd;
   color: white;
 }
 .navigation a {
@@ -26,15 +36,16 @@ body {
 .links {
   padding: 10px;
 }
-
-h1 {
+.information {
+  color: white;
+  padding: 30px;
+}
+.information h1 {
   font-family: Arial "Time New Roman";
-  font-size: 10px;
-  color: #bdd03b;
-  text-transform: uppercase;
-  background-color: #247fdc;
-  border-radius: 10px;
-  padding: 10px
+}
+
+.information p {
+  font-size: 20px;
 }
 
 .userinfo {
