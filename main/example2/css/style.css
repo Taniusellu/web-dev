@@ -1,0 +1,10 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial 'New Roman Times'
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}

@@ -47,12 +47,8 @@ body {
   font-size: 20px;
 }
 
-.userinfo {
-  background-color: #247fdc;
-  border-radius: 20px;
-  padding: 20px;
-}
-
-.userinfo input {
+.javaboard {
+  background-color: white;
   border-radius: 10px;
+  padding: 20px;
 }
