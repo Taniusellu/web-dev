@@ -1,0 +1,35 @@
+h1 {
+  color: blue;
+}
+
+
+body {
+  font-family: PT Mono;
+  background-image: url("images/background.jpg");
+}
+p {
+  padding: 10px;
+  font-size: 20px;
+}
+
+
+.container  {
+  width: 930px;
+  margin: auto;
+}
+
+.box-one {
+  background-color: #f3f3f3;
+}
+
+.box-one h1 {
+  color: black;
+  padding: 10px;
+}
+
+
+.box-one .hello-container  {
+  padding-top: 10px;
+  width: 30%;
+  margin: auto;
+}
