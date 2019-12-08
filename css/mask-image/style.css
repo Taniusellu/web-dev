@@ -1,0 +1,19 @@
+div {
+    width: 280px;
+    height: 280px;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/Harry-Potter-1-.jpg) center center;
+  background-size: cover;
+  transition: 1.5s cubic-bezier(1, -1, 0, 2);
+  clip-path: polygon(50% 0, 35% 50%, 50% 100%, 0 50%);
+}
+div:hover {
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+
+/* Center the demo */
+html, body { height: 90%; }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
