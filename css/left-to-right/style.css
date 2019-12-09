@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
 }
+
+
 .parent {
     list-style-type: none;
     margin: 0;
@@ -23,5 +25,18 @@
 }
 
 .container a:hover {
-    background-color: #111;
+    background-color: rgb(36, 35, 35);
+}
+
+.main-container {
+    background-image: url("/Users/fsadykov/Dev/web-dev/css/left-to-right/pexels-photo.jpeg");
+    height: 3000px;
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+}
+.main-container h1 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    padding: 100px;
+    color: white;
 }
